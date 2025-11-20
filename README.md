@@ -1,6 +1,6 @@
 # 💕 Wedding Invitation B - Bella & Carlos
 
-## Romantic Pink & Lavender Theme
+## Elegant Romantic Pink & Silver Theme
 
 Una invitación de boda romántica con tema rosa y lavanda, llena de amor y efectos visuales encantadores.
 
