@@ -1,10 +1,12 @@
 :root {
-    --rosa-suave: #f8bbd9;
-    --rosa-intenso: #e91e63;
-    --lavanda: #e1bee7;
-    --dorado-rosa: #f3d1c7;
-    --blanco-rosa: #fef7f7;
-    --gris-rosa: #d8bfd8;
+    --rosa-suave: #f4c2c2;
+    --rosa-intenso: #d6577a;
+    --rosa-pálido: #f8e6e6;
+    --plateado: #c0c0c0;
+    --plateado-claro: #e8e8e8;
+    --blanco-puro: #ffffff;
+    --blanco-rosa: #fdfbfb;
+    --gris-plateado: #a8a8a8;
     --section-spacing: 80px;
     --element-spacing: 30px;
     --card-spacing: 20px;
@@ -74,14 +76,14 @@ body {
     font-size: 2rem;
     color: var(--rosa-intenso);
     margin-bottom: 1rem;
-    animation: heartBeat 2s ease-in-out infinite;
+    animation: heartBeat 1.2s ease-in-out infinite;
 }
 
 @keyframes heartBeat {
     0%, 100% { transform: scale(1); }
-    25% { transform: scale(1.2); }
+    25% { transform: scale(1.1); }
     50% { transform: scale(1); }
-    75% { transform: scale(1.1); }
+    75% { transform: scale(1.05); }
 }
 
 h1 {
@@ -90,7 +92,7 @@ h1 {
     color: var(--rosa-intenso);
     margin-bottom: 1rem;
     text-shadow: 2px 2px 4px rgba(233, 30, 99, 0.2);
-    background: linear-gradient(45deg, var(--rosa-intenso), var(--lavanda));
+    background: linear-gradient(45deg, var(--rosa-intenso), var(--plateado));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -98,7 +100,7 @@ h1 {
 h2 {
     font-family: 'Dancing Script', cursive;
     font-size: 2.5rem;
-    color: var(--gris-rosa);
+    color: var(--gris-plateado);
     margin-bottom: 1.5rem;
     letter-spacing: 1px;
 }
@@ -114,7 +116,7 @@ h2 {
 .love-quote {
     font-family: 'Dancing Script', cursive;
     font-size: 1.8rem;
-    color: var(--lavanda);
+    color: var(--plateado-claro);
     font-style: italic;
     margin: 2rem 0;
     padding: 0 20px;
@@ -122,7 +124,7 @@ h2 {
 
 .infinity-rings {
     font-size: 3rem;
-    color: var(--dorado-rosa);
+    color: var(--rosa-pálido);
     animation: rotate 6s linear infinite;
 }
 
@@ -153,7 +155,7 @@ h2 {
     top: 0;
     bottom: 0;
     width: 3px;
-    background: linear-gradient(to bottom, var(--rosa-suave), var(--lavanda));
+    background: linear-gradient(to bottom, var(--rosa-suave), var(--plateado-claro));
     transform: translateX(-50%);
 }
 
@@ -234,7 +236,7 @@ h2 {
 }
 
 .timeline-content p {
-    color: var(--gris-rosa);
+    color: var(--gris-plateado);
     line-height: 1.6;
     font-size: 1rem;
 }
@@ -265,7 +267,7 @@ h2 {
     left: -5px;
     right: -5px;
     bottom: -5px;
-    background: linear-gradient(45deg, var(--rosa-suave), var(--lavanda), var(--dorado-rosa));
+    background: linear-gradient(45deg, var(--rosa-suave), var(--plateado-claro), var(--rosa-pálido));
     z-index: -1;
     border-radius: 25px;
     opacity: 0.4;
@@ -316,7 +318,7 @@ h2 {
     left: 0;
     right: 0;
     height: 4px;
-    background: linear-gradient(90deg, var(--rosa-suave), var(--lavanda));
+    background: linear-gradient(90deg, var(--rosa-suave), var(--plateado-claro));
 }
 
 .countdown-number {
@@ -330,7 +332,7 @@ h2 {
 }
 
 .countdown-label {
-    color: var(--gris-rosa);
+    color: var(--gris-plateado);
     font-size: 1rem;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -341,7 +343,7 @@ h2 {
 .countdown-footer {
     font-family: 'Dancing Script', cursive;
     font-size: 2rem;
-    color: var(--lavanda);
+    color: var(--plateado-claro);
     text-align: center;
     margin-top: 2rem;
     font-style: italic;
@@ -403,7 +405,7 @@ h2 {
     left: 0;
     right: 0;
     height: 5px;
-    background: linear-gradient(90deg, var(--rosa-suave), var(--lavanda), var(--dorado-rosa));
+    background: linear-gradient(90deg, var(--rosa-suave), var(--plateado-claro), var(--rosa-pálido));
 }
 
 .detail-card:hover {
@@ -439,7 +441,7 @@ h2 {
 }
 
 .detail-card p {
-    color: var(--gris-rosa);
+    color: var(--gris-plateado);
     font-size: 1.1rem;
     line-height: 1.8;
     margin-bottom: 8px;
@@ -452,7 +454,7 @@ h2 {
     transform: translateX(-50%);
     width: 50px;
     height: 3px;
-    background: linear-gradient(90deg, var(--rosa-suave), var(--lavanda));
+    background: linear-gradient(90deg, var(--rosa-suave), var(--plateado-claro));
     border-radius: 2px;
 }
 
@@ -492,7 +494,7 @@ h2 {
 
 .recommended-color-text {
     font-size: 1.3rem;
-    color: var(--gris-rosa);
+    color: var(--gris-plateado);
     margin: 25px 0;
     font-weight: 500;
     position: relative;
@@ -539,7 +541,7 @@ h2 {
 
 .additional-note {
     font-size: 1.1rem;
-    color: var(--lavanda);
+    color: var(--plateado-claro);
     font-style: italic;
     margin-top: 20px;
     font-family: 'Dancing Script', cursive;
@@ -556,7 +558,7 @@ h2 {
 }
 
 .nav-button {
-    background: linear-gradient(135deg, var(--rosa-intenso) 0%, var(--lavanda) 100%);
+    background: linear-gradient(135deg, var(--rosa-intenso) 0%, var(--plateado-claro) 100%);
     color: white;
     padding: 20px 40px;
     border-radius: 50px;
@@ -592,7 +594,7 @@ h2 {
 
 .nav-button:hover {
     transform: translateY(-5px) scale(1.05);
-    background: linear-gradient(135deg, var(--dorado-rosa) 0%, var(--rosa-suave) 100%);
+    background: linear-gradient(135deg, var(--rosa-pálido) 0%, var(--rosa-suave) 100%);
     color: var(--rosa-intenso);
     box-shadow: 0 20px 40px rgba(233, 30, 99, 0.4);
 }
@@ -610,7 +612,7 @@ h2 {
 .rsvp-intro p {
     font-family: 'Dancing Script', cursive;
     font-size: 1.8rem;
-    color: var(--gris-rosa);
+    color: var(--gris-plateado);
     font-style: italic;
     margin-bottom: 20px;
 }
@@ -621,7 +623,7 @@ h2 {
     gap: 15px;
     font-size: 1.5rem;
     color: var(--rosa-suave);
-    animation: heartBeat 2s ease-in-out infinite;
+    animation: heartBeat 1.2s ease-in-out infinite;
 }
 
 /* Location */
@@ -634,7 +636,7 @@ h2 {
 }
 
 .map-button {
-    background: linear-gradient(135deg, var(--lavanda), var(--rosa-suave));
+    background: linear-gradient(135deg, var(--plateado-claro), var(--rosa-suave));
     color: white;
     padding: 25px;
     border-radius: 20px;
@@ -649,7 +651,7 @@ h2 {
 .map-button:hover {
     transform: translateY(-8px);
     box-shadow: 0 15px 35px rgba(233, 30, 99, 0.3);
-    background: linear-gradient(135deg, var(--dorado-rosa), var(--rosa-suave));
+    background: linear-gradient(135deg, var(--rosa-pálido), var(--rosa-suave));
     color: var(--rosa-intenso);
 }
 
@@ -733,7 +735,7 @@ h2 {
 
 .gift-message {
     font-size: 1.4rem;
-    color: var(--gris-rosa);
+    color: var(--gris-plateado);
     line-height: 1.8;
     font-style: italic;
     margin-bottom: 40px;
@@ -770,12 +772,12 @@ h2 {
 }
 
 .rose:nth-child(odd) {
-    background: var(--lavanda);
+    background: var(--plateado-claro);
     border-radius: 0 50%;
 }
 
 .rose:nth-child(even) {
-    background: var(--dorado-rosa);
+    background: var(--rosa-pálido);
 }
 
 @keyframes fallRose {
@@ -825,7 +827,7 @@ h2 {
 .modal-header i {
     font-size: 2rem;
     color: var(--rosa-intenso);
-    animation: heartBeat 2s ease-in-out infinite;
+    animation: heartBeat 1.2s ease-in-out infinite;
 }
 
 .modal-header h2 {
@@ -839,7 +841,7 @@ h2 {
     top: 20px;
     right: 30px;
     font-size: 2.5rem;
-    color: var(--gris-rosa);
+    color: var(--gris-plateado);
     cursor: pointer;
     transition: all 0.3s ease;
 }
@@ -896,7 +898,7 @@ h2 {
 
 /* Footer */
 footer {
-    background: linear-gradient(135deg, var(--rosa-intenso) 0%, var(--lavanda) 100%);
+    background: linear-gradient(135deg, var(--rosa-intenso) 0%, var(--plateado-claro) 100%);
     color: white;
     padding: 80px 20px;
     text-align: center;
@@ -945,7 +947,7 @@ footer p {
 }
 
 .social-links a:hover {
-    color: var(--dorado-rosa);
+    color: var(--rosa-pálido);
     transform: translateY(-5px) scale(1.2);
 }
 
@@ -962,7 +964,7 @@ footer p {
     bottom: 30px;
     right: 30px;
     padding: 18px 30px;
-    background: linear-gradient(135deg, var(--rosa-intenso), var(--lavanda));
+    background: linear-gradient(135deg, var(--rosa-intenso), var(--plateado-claro));
     color: white;
     border: none;
     border-radius: 50px;
@@ -979,7 +981,7 @@ footer p {
 }
 
 #musicButton:hover {
-    background: linear-gradient(135deg, var(--dorado-rosa), var(--rosa-suave));
+    background: linear-gradient(135deg, var(--rosa-pálido), var(--rosa-suave));
     color: var(--rosa-intenso);
     transform: scale(1.1);
     box-shadow: 0 15px 40px rgba(233, 30, 99, 0.5);
@@ -1020,7 +1022,7 @@ footer p {
 .guest-alert i {
     font-size: 1.8rem;
     min-width: 40px;
-    color: var(--dorado-rosa);
+    color: var(--rosa-pálido);
     animation: pulse 2.5s infinite;
 }
 
