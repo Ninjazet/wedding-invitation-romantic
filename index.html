@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bella & Carlos - Nuestra Boda</title>
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="preload">
+    <!-- Envelope Animation -->
+    <div class="envelope-overlay" id="envelopeOverlay">
+        <div class="envelope-container">
+            <img src="https://images.unsplash.com/photo-1606800052052-a08af7148866?w=800" alt="Sobre romántico" class="envelope-img" id="envelopeImg">
+            <div class="wax-seal" id="waxSeal">
+                <img src="https://png.pngtree.com/png-vector/20220705/ourmid/pngtree-pink-wax-seal-png-image_5683642.png" alt="Sello rosa" class="seal-img">
+            </div>
+        </div>
+    </div>
+
+    <!-- Floating Hearts Background -->
+    <div class="hearts-background" id="heartsBackground"></div>
+
+    <!-- Main Content -->
+    <main id="mainContent" style="opacity: 0;">
+        <!-- Hero Section -->
+        <section class="hero" id="hero">
+            <div class="rose-petals"></div>
+            <div class="content">
+                <div class="heart-divider">
+                    <i class="fas fa-heart"></i>
+                </div>
+                <h1>Bella & Carlos</h1>
+                <h2>Juntos Para Siempre</h2>
+                <p>22 de Septiembre 2026</p>
+                <div class="love-quote">
+                    "Dos corazones, una sola alma"
+                </div>
+                <div class="infinity-rings">
+                    <i class="fas fa-infinity"></i>
+                </div>
+            </div>
+        </section>
+
+        <!-- Love Story Timeline -->
+        <section class="section timeline-section">
+            <h2 class="section-title">Nuestra Historia de Amor</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">2019</div>
+                    <div class="timeline-content">
+                        <h3>Nos Conocimos</h3>
+                        <p>En un café de la ciudad, nuestras miradas se cruzaron y supimos que algo especial estaba comenzando.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2021</div>
+                    <div class="timeline-content">
+                        <h3>Primera Cita</h3>
+                        <p>Una cena bajo las estrellas marcó el inicio de nuestra hermosa aventura juntos.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2024</div>
+                    <div class="timeline-content">
+                        <h3>La Propuesta</h3>
+                        <p>En el mismo lugar donde nos conocimos, Carlos le pidió a Bella que fuera su esposa para siempre.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2026</div>
+                    <div class="timeline-content">
+                        <h3>Nuestra Boda</h3>
+                        <p>Y ahora, queremos que seas parte de nuestro día más especial.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Countdown Section -->
+        <section class="countdown-section">
+            <div class="section">
+                <h2 class="countdown-header">Días Hasta Nuestro Sí Quiero</h2>
+                <div class="countdown">
+                    <div class="countdown-items" id="countdown">
+                        <div class="countdown-item">
+                            <div class="countdown-number" id="days">--</div>
+                            <div class="countdown-label">Días</div>
+                        </div>
+                        <div class="countdown-item">
+                            <div class="countdown-number" id="hours">--</div>
+                            <div class="countdown-label">Horas</div>
+                        </div>
+                        <div class="countdown-item">
+                            <div class="countdown-number" id="minutes">--</div>
+                            <div class="countdown-label">Minutos</div>
+                        </div>
+                        <div class="countdown-item">
+                            <div class="countdown-number" id="seconds">--</div>
+                            <div class="countdown-label">Segundos</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="countdown-footer">Hasta que seamos uno</div>
+            </div>
+        </section>
+
+        <!-- Event Details -->
+        <section class="section">
+            <h2 class="section-title">Detalles de Nuestra Celebración</h2>
+            <div class="details-grid">
+                <div class="detail-card animate">
+                    <div class="card-header">
+                        <i class="fas fa-calendar-heart"></i>
+                    </div>
+                    <h3>Fecha y Hora</h3>
+                    <p>22 de septiembre 2026</p>
+                    <p>05:00 PM</p>
+                    <div class="card-decoration"></div>
+                </div>
+                <div class="detail-card animate">
+                    <div class="card-header">
+                        <i class="fas fa-church"></i>
+                    </div>
+                    <h3>Ceremonia</h3>
+                    <p>Capilla Santa María</p>
+                    <p>Jardín de las Rosas 789</p>
+                    <div class="card-decoration"></div>
+                </div>
+                <div class="detail-card animate">
+                    <div class="card-header">
+                        <i class="fas fa-glass-cheers"></i>
+                    </div>
+                    <h3>Recepción</h3>
+                    <p>Hacienda Los Rosales</p>
+                    <p>Camino del Amor 321</p>
+                    <div class="card-decoration"></div>
+                </div>
+                <div class="detail-card animate">
+                    <div class="card-header">
+                        <i class="fas fa-music"></i>
+                    </div>
+                    <h3>Fiesta</h3>
+                    <p>Baile y Celebración</p>
+                    <p>08:00 PM - 03:00 AM</p>
+                    <div class="card-decoration"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Dress Code -->
+        <section class="dress-code">
+            <div class="section">
+                <h2 class="section-title">Código de Vestimenta</h2>
+                <div class="dress-content">
+                    <div class="dress-icon">
+                        <i class="fas fa-tshirt"></i>
+                    </div>
+                    <p class="dress-instructions">Formal Elegante</p>
+                    <p class="recommended-color-text">Colores sugeridos: rosa palo, lavanda, dorado suave</p>
+                    <div class="color-restriction">
+                        <i class="fas fa-heart-broken"></i>
+                        Por favor evita usar blanco, crema o rosa intenso
+                    </div>
+                    <p class="additional-note">Queremos que brilles tanto como nosotros ese día ✨</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Location -->
+        <section class="section location-section">
+            <h2 class="section-title">Ubicación</h2>
+            <div class="navigation-buttons compact">
+                <a href="https://maps.google.com/?q=Capilla+Santa+Maria" class="map-button" target="_blank">
+                    <div class="button-content">
+                        <i class="fas fa-church"></i>
+                        <div class="button-text">
+                            <div class="main-text">Ver Ubicación</div>
+                            <div class="sub-text">Ceremonia</div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://maps.google.com/?q=Hacienda+Los+Rosales" class="map-button" target="_blank">
+                    <div class="button-content">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="button-text">
+                            <div class="main-text">Ver Ubicación</div>
+                            <div class="sub-text">Recepción</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="map-container elegant">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.1234567890123!2d-99.1234567890123!3d19.1234567890123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f92ac7cc1c05%3A0x9b94d1b9b7a8e3b!2sChurch!5e0!3m2!1sen!2smx!4v1616161616161!5m2!1sen!2smx" width="100%" height="100%" frameborder="0" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
+
+        <!-- RSVP -->
+        <section class="section">
+            <h2 class="section-title">Confirma tu Asistencia</h2>
+            <div class="rsvp-intro">
+                <p>Tu presencia hará que nuestro día sea aún más especial</p>
+                <div class="hearts-divider">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-heart"></i>
+                </div>
+            </div>
+            <div style="text-align: center;">
+                <button class="nav-button" onclick="openRSVP()">
+                    <i class="fas fa-envelope-heart"></i>
+                    Confirmar con Amor
+                </button>
+            </div>
+        </section>
+
+        <!-- Gift Section -->
+        <section class="gift-section">
+            <div class="rose-rain"></div>
+            <div class="section">
+                <h2 class="section-title">Regalos del Corazón</h2>
+                <div class="gift-content">
+                    <div class="gift-icon">
+                        <i class="fas fa-gift"></i>
+                    </div>
+                    <p class="gift-message">
+                        El regalo más grande es tenerte con nosotros en este día tan especial. 
+                        Si deseas obsequiarnos algo, hemos preparado algunas opciones que nos ayudarán a comenzar nuestra vida juntos.
+                    </p>
+                    <div class="navigation-buttons gift-buttons">
+                        <a href="#" class="nav-button">
+                            <i class="fas fa-gift"></i>
+                            Mesa de Regalos
+                        </a>
+                        <a href="#" class="nav-button">
+                            <i class="fas fa-plane-departure"></i>
+                            Luna de Miel
+                        </a>
+                        <a href="#" class="nav-button">
+                            <i class="fas fa-home-heart"></i>
+                            Nuestro Hogar
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <div class="section">
+                <div class="footer-hearts">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-heart"></i>
+                </div>
+                <h3>Bella & Carlos</h3>
+                <p>22 de Septiembre 2026</p>
+                <p class="love-quote">"El amor es la fuerza más poderosa del mundo" - Paulo Coelho</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-tiktok"></i></a>
+                </div>
+                <div class="footer-message">
+                    Con amor, Bella & Carlos 💕
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <!-- RSVP Modal -->
+    <div class="rsvp-modal" id="rsvpModal">
+        <div class="rsvp-content">
+            <span class="close" onclick="closeRSVP()">&times;</span>
+            <div class="modal-header">
+                <i class="fas fa-heart"></i>
+                <h2>Confirma tu Asistencia</h2>
+                <i class="fas fa-heart"></i>
+            </div>
+            
+            <form id="rsvpForm">
+                <div class="form-group">
+                    <label><i class="fas fa-user"></i> Nombre Completo:</label>
+                    <input type="text" class="form-input" id="guestName" required>
+                    <div class="error-message" id="nameError">Por favor ingresa tu nombre completo</div>
+                </div>
+                
+                <div class="form-group">
+                    <label><i class="fas fa-heart-pulse"></i> ¿Confirmas tu asistencia?</label>
+                    <select class="form-input" id="attendance" required>
+                        <option value="">Selecciona una opción</option>
+                        <option value="si">¡Sí! No me lo perdería por nada</option>
+                        <option value="no">Lo siento, no podré asistir</option>
+                    </select>
+                </div>
+                
+                <div class="form-group" id="guestCountGroup" style="display: none;">
+                    <label><i class="fas fa-users"></i> ¿Cuántos asistirán?</label>
+                    <select class="form-input" id="guestCount">
+                        <option value="1">Solo yo</option>
+                        <option value="2">2 personas (pareja)</option>
+                        <option value="3">3 personas (familia)</option>
+                        <option value="4">4+ personas</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label><i class="fas fa-comment-heart"></i> Mensaje de amor (opcional):</label>
+                    <textarea class="form-input" id="message" rows="3" placeholder="Comparte tus mejores deseos para los novios..."></textarea>
+                </div>
+                
+                <div style="text-align: center;">
+                    <button type="submit" class="nav-button">
+                        <i class="fas fa-heart"></i>
+                        Enviar con Amor
+                    </button>
+                </div>
+            </form>
+            
+            <div class="form-message" id="responseMessage" style="display: none;"></div>
+        </div>
+    </div>
+
+    <!-- Guest Alert -->
+    <div class="guest-alert" id="guestAlert">
+        <div class="alert-content">
+            <i class="fas fa-heart"></i>
+            <div id="alertText">¡Esperamos celebrar contigo nuestro amor!</div>
+        </div>
+    </div>
+
+    <!-- Music Button -->
+    <button id="musicButton" onclick="toggleMusic()">
+        <i class="fas fa-music" id="musicIcon"></i>
+        <span id="musicText">Música</span>
+    </button>
+
+    <!-- Background Music -->
+    <audio id="backgroundMusic" loop>
+        <source src="https://www.soundjay.com/misc/sounds/romantic-music.mp3" type="audio/mpeg">
+        Tu navegador no soporta audio HTML5.
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
